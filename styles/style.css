@@ -104,8 +104,14 @@ nav li a{
     height: 256px;
     padding-top: 15px;
 }
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+    justify-content: center;
+}
 .product{
-    box-shadow: 3px 3px 20px gray; 
+    box-shadow: 3px 3px 12px gray; 
         width: 329px;
     height: 476px;  
 }
