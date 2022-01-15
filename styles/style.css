@@ -1,7 +1,53 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@400;500&family=Roboto:wght@700&display=swap');
 
+/* variables  */
+:root{
+    --bd-width: 870px;
+}
+
+
 /* common properties */
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+main, header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    border: 1px solid pink;
+}
+.container{
+
+    width: var(--bd-width);
+    padding: 30px;
+    border: 1px solid brown;
+}
+.banner-top{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.banner-top h2{
+    border: 1px solid blue;
+}
+nav{
+    border: 1px solid black;
+}
+nav li{
+    list-style: none;
+    font-size: 14px;
+    padding: 0px 10px; 
+    border: 1px solid yellowgreen;
+}
+nav > ul{
+    display: flex;
+    justify-content:flex-end;
+    border: 1px solid red;
+    padding-top: 7px;
+}
+nav li a{
+    text-decoration: none;
+    color:black;
 }
