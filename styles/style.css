@@ -32,9 +32,7 @@ main, header{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-.banner-top h2{
-    /* border: 1px solid blue; */
-}
+
 nav{
     /* border: 1px solid black; */
 }
@@ -55,8 +53,7 @@ nav li a{
     color:black;
 }
 .half-portion{
-    width: 50%;
-    
+    width: 50%; 
 }
 .banner h1{
     font-size: 40px;
@@ -104,6 +101,9 @@ nav li a{
     height: 256px;
     padding-top: 15px;
 }
+.product-section .section-title{
+    font-size: 30px;
+}
 .products{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -143,7 +143,7 @@ nav li a{
 }
 .next-page{
     width: 950px;
-    margin: 50px 0px;
+    margin: 40px 0px;
     text-align: right;
     color: #EC2C5C;
     font-weight: 900;
@@ -170,4 +170,79 @@ footer p{
 footer .fab{
     margin-top: 15px;
     font-size: 25px;
+}
+
+/* Media queries */
+@media only screen and (max-width:688px){
+    nav{
+        display: none;
+    }
+    /* header{
+ background-color: red; 
+    } */
+    .container{
+        width: 100%;
+    }
+    .flexy-items{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .banner-top{
+        display: flex;
+        justify-content: center;
+    }
+    .banner-left, .banner-right {
+        width: 100%;
+        text-align: center;
+    }
+    .banner-right img{
+        margin-top: 25px;
+    }
+    main{
+        justify-content: center;
+    }
+    .product-section .section-title{
+        margin-top: 0;
+    }
+    .products{
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        justify-items: center;
+    }
+}
+/* tablet devices */
+@media only screen and (min-width: 688px) and (max-width:992px){
+    nav{
+        display: none;
+    }
+    .container{
+        width: 100%;
+
+    }
+    .banner-top{
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+    .banner-left{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .banner-right{
+        text-align: center;
+    }
+    .banner-right img{
+        width: 60%;
+    }
+    .half-portion{
+        width: 100%; 
+    }
+    .flexy-items{
+        flex-direction: column; 
+        justify-content: center;
+    }  
+    .products{
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
+        justify-items: center; 
+    }
 }
