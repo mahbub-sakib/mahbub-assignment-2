@@ -12,44 +12,53 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+.flexy-items{
+    display:flex;
+}
 main, header{
     display: flex;
     align-items: center;
     flex-direction: column;
-
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
 }
 .container{
 
     width: var(--bd-width);
     padding: 30px;
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
 }
 .banner-top{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 .banner-top h2{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 nav{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 nav li{
     list-style: none;
     font-size: 14px;
     padding: 0px 10px; 
-    border: 1px solid yellowgreen;
+    /* border: 1px solid yellowgreen; */
 }
 nav > ul{
     display: flex;
     justify-content:flex-end;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding-top: 7px;
 }
 nav li a{
     text-decoration: none;
     color:black;
+}
+.half-portion{
+    width: 50%;
+    
+}
+.banner h1{
+    font-size: 40px;
 }
 .styled-button{
     text-decoration: none;
@@ -65,4 +74,10 @@ nav li a{
 .fa-arrow-right{
     padding-top: 15px;
     padding-left: 15px;
+}
+.banner-right{
+    text-align: right;
+}
+.banner-right img{
+    width: 80%;
 }
