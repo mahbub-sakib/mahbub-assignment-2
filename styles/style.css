@@ -71,9 +71,9 @@ nav li a{
     color: white;
     font-weight: bold;
 }
-.styled-button .fa-arrow-right{
+.styled-button  .fa-arrow-right{
     padding-top: 15px;
-    padding-left: 15px;
+    padding-left: 10px;
 }
 .banner-right{
     text-align: right;
@@ -144,14 +144,63 @@ nav li a{
     font-weight: 700;
 }
 .next-page{
-    width: 950px;
-    margin: 40px 0px;
+    width: 100%;
+    margin: 40px 0;
     text-align: right;
     color: #EC2C5C;
     font-weight: 900;
 }
 .next-page .fa-arrow-right{
     padding-left: 8px;
+}
+.feature-left{
+    width: 320px;
+    height: 400px;
+    background-color: rgb(37, 100, 97);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+.feature-left h2{
+    padding-top: 15px;
+}
+.feature-left p{
+    font-size: 14px;  
+    margin: 0 15px; 
+}
+.feature-left input{
+    border-radius:5px;
+    border: 0;
+    height: 30px;
+    width: 220px;
+}
+.feature-right{
+    margin-left: 20%;
+}
+.submit-button{
+    text-decoration: none;
+    background-color:#EC2C5C;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;    
+}
+.square-button{
+    text-decoration: none;
+    background-color:#EC2C5C;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-weight: bold;    
+}
+.square-button  .fa-arrow-right{
+    padding-top: 15px;
+    padding-left: 10px;
 }
 footer {
     background-color: black;
@@ -210,6 +259,9 @@ footer .fab{
         grid-template-columns: repeat(1, 1fr);
         flex-direction: column;
         justify-items: center;
+    }
+    .next-page{
+        width: 92%;
     }
 }
 /* tablet devices */
