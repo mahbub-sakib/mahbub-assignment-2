@@ -35,6 +35,9 @@ main, header{
 .grow { transition: transform 0.5s; }
 .grow:hover { transform: scale(1.1); }
 
+.glow{ transition: transform 0.5s; }
+.glow:hover { text-shadow: 2px 2px 5px red; }
+
 nav li{
     list-style: none;
     font-size: 14px;
