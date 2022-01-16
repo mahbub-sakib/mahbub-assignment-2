@@ -249,7 +249,9 @@ footer .fab{
     .banner-left, .banner-right, .feature-left, .feature-right {
         width: 92%;
         text-align: center;
+        margin: 0 4%;
     }
+   
     .banner-right img{
         margin-top: 25px;
     }
@@ -268,7 +270,7 @@ footer .fab{
         width: 92%;
     }
     .feature-right{
-        margin-left: 0;
+        margin:4%;
     }
     footer{
         width: 100%;
@@ -323,6 +325,7 @@ footer .fab{
         margin: 0 4%;
         text-align: center;
     }
+
     .feature-right{
         margin: 4%;
     }
