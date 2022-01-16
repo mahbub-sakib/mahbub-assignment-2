@@ -228,9 +228,6 @@ footer .fab{
     nav{
         display: none;
     }
-    /* header{
- background-color: red; 
-    } */
     .container{
         width: 100%;
     }
@@ -242,9 +239,12 @@ footer .fab{
         display: flex;
         justify-content: center;
     }
-    .banner-left, .banner-right {
-        width: 100%;
+    .banner-left, .banner-right, .feature-left, .feature-right {
+        width: 92%;
         text-align: center;
+    }
+    .feature-right{
+        margin: 0;
     }
     .banner-right img{
         margin-top: 25px;
@@ -262,6 +262,9 @@ footer .fab{
     }
     .next-page{
         width: 92%;
+    }
+    footer{
+        width: 100%;
     }
 }
 /* tablet devices */
