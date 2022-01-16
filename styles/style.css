@@ -25,7 +25,9 @@ main, header{
 .container{
 
     width: var(--bd-width);
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* padding: 30px; */
     /* border: 1px solid brown; */
 }
 .banner-top{
@@ -152,6 +154,9 @@ nav li a{
 }
 .next-page .fa-arrow-right{
     padding-left: 8px;
+}
+.features{
+    margin-bottom: 40px;
 }
 .feature-left{
     width: 320px;
