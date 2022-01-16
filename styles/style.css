@@ -207,6 +207,7 @@ nav li a{
     padding-top: 15px;
     padding-left: 10px;
 }
+
 footer {
     background-color: black;
     color: white;
@@ -239,6 +240,7 @@ footer .fab{
     .flexy-items{
         flex-direction: column;
         justify-content: center;
+        justify-items: center;
     }
     .banner-top{
         display: flex;
@@ -247,9 +249,6 @@ footer .fab{
     .banner-left, .banner-right, .feature-left, .feature-right {
         width: 92%;
         text-align: center;
-    }
-    .feature-right{
-        margin: 0;
     }
     .banner-right img{
         margin-top: 25px;
@@ -267,6 +266,9 @@ footer .fab{
     }
     .next-page{
         width: 92%;
+    }
+    .feature-right{
+        margin-left: 0;
     }
     footer{
         width: 100%;
@@ -306,5 +308,22 @@ footer .fab{
         grid-template-columns: repeat(2, 1fr);
         flex-direction: column;
         justify-items: center; 
+    }
+    .next-page{
+        width: 95%;
+    }
+    .features{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+    .banner-left, .banner-right, .feature-left, .feature-right {
+        width: 92%;
+        margin: 0 4%;
+        text-align: center;
+    }
+    .feature-right{
+        margin: 4%;
     }
 }
